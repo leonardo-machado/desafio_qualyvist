@@ -7,8 +7,6 @@ import PrimeReact from 'primereact/utils';
 
 // Paginas
 import { DashboardPage } from './pages/DashboardPage';
-import { ContasPage } from './pages/ContasPage';
-import { SubdominiosReservadosPage } from './pages/SubdominiosReservadosPage';
 
 // Components
 import { AppTopbar } from './components/AppTopbar';
@@ -205,7 +203,7 @@ class App extends Component {
 
                 <div className="layout-main">
                     <Route path="/" exact component={DashboardPage} />
-                    <Route path="/contas" component={ContasPage} />
+                    {/*<Route path="/contas" component={ContasPage} />*/}
                 </div>
 
                 <AppFooter />

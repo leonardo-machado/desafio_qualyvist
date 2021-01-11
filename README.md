@@ -43,8 +43,26 @@ A estrutura da tabela do banco de dados é apresentada na imagem abaixo.
 
 ## Requisitos do Server
 
-* A aplicação servidora deve utilizar o banco de dados PostgreSQL.
+* A aplicação servidora deve utilizar o banco de dados PostgreSQL;
 
     **Obs**: a estrutura disponibilizada nesse repositório já está preparada para isso. Deve-se analisar os fontes disponíveis para realizar a configuração necessária para a conexão com o banco de dados.
 
-* 
+* A API de Contas deve ser implementada na rota /conta;
+
+* No diretório server/modules/conta já tem os arquivos que devem ser implementados;
+
+
+A imagem abaixo apresenta estrutura da tabela de Subdomínios reservados.
+
+![Estrutura tabela](./subdominios.png)
+
+# Processo de Candidatura
+
+* Fazer o clone deste repositório;
+* Criar uma branch com NOME_SOBRENOME e realizar o desenvolvimento;
+* Adicionar na raiz do projeto um arquivo chamado contato.txt com seu nome, e-mail e telefone para contato;
+* Criar um Pull Request para realizarmos a análise e avaliação do seu desenvolvimento;
+
+## Dúvidas?
+
+Dúvidas podem ser encaminhadas para leonardo.davi.machado@gmail.com com o assunto "Dúvida - Desafio Qualyvist".
