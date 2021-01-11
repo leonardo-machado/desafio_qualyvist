@@ -58,7 +58,7 @@ A imagem abaixo apresenta estrutura da tabela de Subdomínios reservados.
 
 # Processo de Candidatura
 
-* Fazer o clone deste repositório;
+* Fazer um Fork deste repositório;
 * Criar uma branch com NOME_SOBRENOME e realizar o desenvolvimento;
 * Adicionar na raiz do projeto um arquivo chamado contato.txt com seu nome, e-mail e telefone para contato;
 * Criar um Pull Request para realizarmos a análise e avaliação do seu desenvolvimento;
